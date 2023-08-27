@@ -1,0 +1,11 @@
+{
+    "name": "@deno/my-example-project",
+    "description": "An example app created with Deno",
+    "type": "module",
+    "scripts": {
+      "start": "deno run --allow-net --allow-read --allow-write src/main.ts",
+      "init": "deno run --allow-net --allow-read --allow-write src/dbSetup.ts",
+      "initWithActions": "deno run --allow-net --allow-read --allow-write src/dbSetup.ts --demo_actions",
+      "compile": "deno compile --output bbe --allow-net --allow-read --allow-write src/main.ts"
+    }
+  }
